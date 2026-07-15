@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "LinkedIn-Clone-App",
+    "slug": "LinkedIn-Clone-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "LinkedIn-Clone-App",
+    "extra": {
+      "eas": {
+        "projectId": "6c55048f-5054-4140-aea5-95c79fb65189"
+      }
+    }
+  }
+}
