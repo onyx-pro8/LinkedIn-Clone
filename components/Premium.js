@@ -1,5 +1,6 @@
 import { View, Text, TouchableOpacity, Image } from 'react-native'
 import Colors from '../utils/Colors'
+import Images from '../utils/Images'
 import CustomIcon from './CustomIcon'
 
 export default function Premium() {

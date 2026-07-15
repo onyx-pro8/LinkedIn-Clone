@@ -1,6 +1,6 @@
 import { View, Image, Text, TouchableOpacity } from 'react-native'
 import Colors from './../utils/Colors';
-import Icon from 'react-native-vector-icons/Entypo';
+import { Entypo } from '@expo/vector-icons';
 import { deviceWidth } from './Dimensions';
 import Images from './../utils/Images';
 import CustomIcon from './CustomIcon';
@@ -17,7 +17,7 @@ export default function ShowPosts({ item }) {
               {
                 item.connection ?
                   <Text style={{ fontWeight: "bold" }}>
-                    <Icon name="dot-single" color={Colors.GRAY} size={16} />
+                    <Entypo name="dot-single" color={Colors.GRAY} size={16} />
                     <Text style={{ color: Colors.GRAY }}>{item.connection}</Text>
                   </Text> : null
               }
@@ -28,7 +28,7 @@ export default function ShowPosts({ item }) {
         </View>
         {
           item.connection ? null : <TouchableOpacity onPress={() => { }} style={{ flexDirection: "row", alignItems: "center" }}>
-            <Icon name='plus' size={15} color={Colors.BLUE} />
+            <Entypo name='plus' size={15} color={Colors.BLUE} />
             <Text style={{ color: Colors.BLUE, fontSize: 15, fontWeight: "bold", marginLeft: 2 }}>Follow</Text>
           </TouchableOpacity>
         }
@@ -58,7 +58,7 @@ export default function ShowPosts({ item }) {
             item.comments > 0 ? <Text style={{ color: Colors.GRAY }}>{item.comments} comments</Text> : null
           }
           {
-            item.comments > 0 && item.shares > 0 ? <Icon name='dot-single' size={16} color={Colors.GRAY} /> : null
+            item.comments > 0 && item.shares > 0 ? <Entypo name='dot-single' size={16} color={Colors.GRAY} /> : null
           }
           {
             item.shares > 0 ? <Text style={{ color: Colors.GRAY }}>{item.shares} shares</Text> : null
@@ -70,7 +70,7 @@ export default function ShowPosts({ item }) {
         >
           {/* Like  */}
           <TouchableOpacity style={{ alignItems: "center" }} onPress={() => { }}>
-            <Icon name='thumbs-up' size={22} color={item.isLiked ? Colors.BLUE : Colors.GRAY} />
+            <Entypo name='thumbs-up' size={22} color={item.isLiked ? Colors.BLUE : Colors.GRAY} />
             <Text style={{ color: item.isLiked ? Colors.BLUE : Colors.GRAY }}>like</Text>
           </TouchableOpacity>
 
@@ -82,7 +82,7 @@ export default function ShowPosts({ item }) {
 
           {/* Share  */}
           <TouchableOpacity style={{ alignItems: "center" }} onPress={() => { }}>
-            <Icon name='share' size={22} color={Colors.GRAY} />
+            <Entypo name='share' size={22} color={Colors.GRAY} />
             <Text style={{ color: Colors.GRAY }}>Share</Text>
           </TouchableOpacity>
 

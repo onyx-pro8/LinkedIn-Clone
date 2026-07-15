@@ -5,7 +5,7 @@ import Images from './../utils/Images';
 import Styles from './../utils/Styles';
 
 
-export default ShowJobs = ({ item }) => (
+const ShowJobs = ({ item }) => (
   <View
     style={[Styles.flexCenter, { marginVertical: 16, marginHorizontal: 25 }]}>
     <Image
@@ -61,3 +61,5 @@ export default ShowJobs = ({ item }) => (
     </TouchableOpacity>
   </View>
 );
+
+export default ShowJobs;

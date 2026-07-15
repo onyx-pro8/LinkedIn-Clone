@@ -1,5 +1,7 @@
 import { View, Text, TouchableOpacity, TextInput, Image } from 'react-native'
 import Colors from '../utils/Colors';
+import Styles from '../utils/Styles';
+import Screens from '../utils/Screens';
 import CustomIcon from './CustomIcon';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Images from '../utils/Images';

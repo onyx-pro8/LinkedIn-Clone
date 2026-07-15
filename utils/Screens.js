@@ -1,4 +1,4 @@
-export default Screens = {
+const Screens = {
   HOME_STACK: "HOME_STACK", 
   HOME: "HOME",
   JOB_STACK: "JOB_STACK",
@@ -10,4 +10,6 @@ export default Screens = {
   POST_STACK: "POST_STACK",
   POST: "POST",
   PROFILE: "PROFILE",
-}
+};
+
+export default Screens;

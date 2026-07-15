@@ -1,7 +1,7 @@
 import { View, Image, ScrollView, Text, TouchableOpacity } from 'react-native'
 import Colors from './../utils/Colors';
 import * as ProfileData from './../data/Profile';
-import Icon from 'react-native-vector-icons/Entypo';
+import { Entypo } from '@expo/vector-icons';
 import CustomIcon from './../components/CustomIcon';
 import Heading from '../components/Heading';
 
@@ -33,7 +33,7 @@ export default function Profile() {
 
           <View style={{ flexDirection: "row", alignItems: "center" }}>
             <Text style={{ color: Colors.BLUE, fontSize: 16, fontWeight: "bold" }}>{DATA.INFO.followers} followers</Text>
-            <Icon name='dot-single' size={16} color={Colors.GRAY} />
+            <Entypo name='dot-single' size={16} color={Colors.GRAY} />
             <Text style={{ color: Colors.BLUE, fontSize: 16, fontWeight: "bold" }}>{DATA.INFO.connections > 500 ? "500+" : DATA.INFO.connections} connections</Text>
           </View>
         </View>
@@ -48,7 +48,7 @@ export default function Profile() {
           </TouchableOpacity>
 
           <TouchableOpacity onPress={() => { }} style={{ borderRadius: 100, borderWidth: 1, borderColor: Colors.GRAY, height: 35, width: 35, alignItems: "center", justifyContent: "center" }}>
-            <Icon name='dots-three-horizontal' size={18} color={Colors.GRAY} />
+            <Entypo name='dots-three-horizontal' size={18} color={Colors.GRAY} />
           </TouchableOpacity>
         </View>
       </View>

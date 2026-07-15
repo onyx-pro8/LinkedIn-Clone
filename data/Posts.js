@@ -1,9 +1,9 @@
 import Images from "../utils/Images";
 
-export default Posts = [
+const Posts = [
   {
     profile_picture: Images.USERS.USER1,
-    name: "Kavithma Thushal",
+    name: "Andrii Ihnatenko",
     title: "Full Stack Engineer | Web Developer | Java Developer",
     timeAgo: 20,
     timeDuration: "h",
@@ -17,7 +17,7 @@ export default Posts = [
   },
   {
     profile_picture: Images.USERS.USER2,
-    name: "Kavithma Thushal",
+    name: "Andrii Ihnatenko",
     title: "Full Stack Engineer | Web Developer | Java Developer",
     timeAgo: 2,
     timeDuration: "w",
@@ -32,7 +32,7 @@ export default Posts = [
   },
   {
     profile_picture: Images.USERS.USER3,
-    name: "Kavithma Thushal",
+    name: "Andrii Ihnatenko",
     title: "Full Stack Engineer | Web Developer | Java Developer",
     connection: '1st',
     timeAgo: 1,
@@ -47,7 +47,7 @@ export default Posts = [
   },
   {
     profile_picture: Images.USERS.USER4,
-    name: "Kavithma Thushal",
+    name: "Andrii Ihnatenko",
     connection: '3rd',
     title: "Full Stack Engineer | Web Developer | Java Developer",
     timeAgo: 3,
@@ -62,7 +62,7 @@ export default Posts = [
   },
   {
     profile_picture: Images.USERS.USER5,
-    name: "Kavithma Thushal",
+    name: "Andrii Ihnatenko",
     connection: '2nd',
     title: "Full Stack Engineer | Web Developer | Java Developer",
     timeAgo: 1,
@@ -77,7 +77,7 @@ export default Posts = [
   },
   {
     profile_picture: Images.USERS.USER6,
-    name: "Kavithma Thushal",
+    name: "Andrii Ihnatenko",
     connection: '1st',
     title: "Full Stack Engineer | Web Developer | Java Developer",
     timeAgo: 1,
@@ -90,4 +90,6 @@ export default Posts = [
     likes: 50,
     isLiked: true,
   },
-]
+];
+
+export default Posts;

@@ -1,14 +1,20 @@
 {
   "expo": {
     "name": "LinkedIn-Clone-App",
-    "slug": "LinkedIn-Clone-App",
+    "slug": "linkedin-clone",
     "version": "1.0.0",
     "orientation": "portrait",
-    "scheme": "LinkedIn-Clone-App",
+    "scheme": "linkedin-clone-app",
     "extra": {
       "eas": {
         "projectId": "6c55048f-5054-4140-aea5-95c79fb65189"
       }
+    },
+    "plugins": [
+      "expo-status-bar"
+    ],
+    "android": {
+      "package": "com.ihnatenkoandrii8.LinkedInCloneApp"
     }
   }
 }

@@ -1,5 +1,5 @@
-export default Images = {
-  PROFILE_PICTURE: require('../assets/Icons/profile_picture.png'),
+const Images = {
+  PROFILE_PICTURE: require('../assets/Icons/profile_picture.jpg'),
   COMPANY: require('../assets/company.jpg'),
   LIKE: require('../assets/Icons/Like.png'),
   LOGOS: {
@@ -39,4 +39,6 @@ export default Images = {
     POST4: require('../assets/Posts/post4.jpg'),
     POST5: require('../assets/Posts/post5.jpg'),
   }
-}
+};
+
+export default Images;

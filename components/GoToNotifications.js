@@ -1,6 +1,8 @@
 import { View, Text, TouchableOpacity } from 'react-native';
 import CustomIcon from './CustomIcon';
 import Colors from '../utils/Colors';
+import Styles from '../utils/Styles';
+import Screens from '../utils/Screens';
 
 export default function GoToNotifications({ navigation }) {
   return (

@@ -1,6 +1,6 @@
 import Images from '../utils/Images'
 
-export default Notifications = [
+const Notifications = [
   {
     logo: Images.LOGOS.LOGO8,
     description: "Your job alert for the role of React Native Developer in Dubai.",
@@ -78,4 +78,6 @@ export default Notifications = [
     description: "Kashish was live. How an engineer spends his day in India 😁 ",
     notificationTime: 7,
   },
-]
+];
+
+export default Notifications;

@@ -2,7 +2,7 @@ import { View, Text, Image, FlatList, TouchableOpacity, TextInput } from 'react-
 import Colors from '../utils/Colors';
 import Images from '../utils/Images';
 import Styles from '../utils/Styles';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import { FontAwesome } from '@expo/vector-icons';
 
 export default function Post() {
   const list = [
@@ -23,7 +23,7 @@ export default function Post() {
         display: 'flex',
         marginVertical: 7,
       }]}>
-      <Icon
+      <FontAwesome
         name={item.icon}
         size={25}
         color={Colors.GRAY}

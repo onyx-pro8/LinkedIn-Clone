@@ -1,8 +1,8 @@
 import Images from "../utils/Images";
 
-export default Profile = {
+const Profile = {
   INFO: {
-    name: 'Kavithma Thushal',
+    name: 'Andrii Ihnatenko',
     company: 'Institute Of Software Engineering',
     profile_picture: Images.PROFILE_PICTURE,
     banner: Images.BANNERS.BANNER,
@@ -16,5 +16,7 @@ export default Profile = {
     post_impressions: "800",
     search_appearence: "50"
   },
-  ABOUT: "I am Kavithma Thushal, a versatile and skilled Fullstack Developer with a passion for implementing innovative solutions. I am still a Computer Science Student & Training Software Engineer at IJSE 👨‍💻",
+  ABOUT: "I am Andrii Ihnatenko, a versatile and skilled Fullstack Developer with a passion for implementing innovative solutions. I am still a Computer Science Student & Training Software Engineer at IJSE 👨‍💻",
 };
+
+export default Profile;

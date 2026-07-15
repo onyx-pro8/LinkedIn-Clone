@@ -1,6 +1,6 @@
 import Images from "../utils/Images";
 
-export default Jobs = [
+const Jobs = [
   {
     logo: Images.LOGOS.LOGO1,
     title: 'Senior Software Engineer - Frontend',
@@ -45,4 +45,6 @@ export default Jobs = [
     hasSchoolAlumni: false,
     alumniCount: 5,
   },
-]
+];
+
+export default Jobs;

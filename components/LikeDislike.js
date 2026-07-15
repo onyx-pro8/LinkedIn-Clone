@@ -1,6 +1,6 @@
 import { View, Text } from 'react-native'
 import Colors from '../utils/Colors'
-import Icon from 'react-native-vector-icons/Entypo';
+import { Entypo } from '@expo/vector-icons';
 
 export default function LikeDislike() {
   return (
@@ -9,8 +9,8 @@ export default function LikeDislike() {
         <Text style={{ fontSize: 18, fontWeight: "bold", color: Colors.BLACK }}>Are these jobs right for you?</Text>
         <Text style={{ fontSize: 16, color: Colors.GRAY }}>We will use your feedback to improve the recommendations</Text>
       </View>
-      <Icon name="thumbs-up" size={31} color={Colors.BLACK} style={{ marginRight: 10 }} />
-      <Icon name="thumbs-down" size={31} color={Colors.BLACK} style={{ marginRight: 10 }} />
+      <Entypo name="thumbs-up" size={31} color={Colors.BLACK} style={{ marginRight: 10 }} />
+      <Entypo name="thumbs-down" size={31} color={Colors.BLACK} style={{ marginRight: 10 }} />
     </View>
   )
 }
